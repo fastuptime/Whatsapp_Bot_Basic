@@ -12,8 +12,8 @@ client.on("qr", (qr) => {
   qrcode.generate(qr, { small: true });
 });
 
-client.on("ready", () => {
-  console.log("Bot Aktif!");
+client.on("ready", () => {*
+  console.log("Sistem Aktif!");
 });
 
 client.on("message", (message) => {
