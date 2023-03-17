@@ -13,7 +13,7 @@ client.on("qr", (qr) => {
 });
 
 client.on("ready", () => {
-  console.log("Bot Aktif!");
+  console.log("Sistem Aktif!");
 });
 
 client.on("message", (message) => {
